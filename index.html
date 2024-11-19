@@ -45,7 +45,7 @@
               <li><a>Item 3</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl">daisyUI</a>
+          <a class="btn btn-ghost text-xl">GEOMETRI</a>
         </div>
        
         <div class="navbar-end">
@@ -92,10 +92,15 @@
                         class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Shoes!</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <h2 class="card-title">Rectangle</h2>
+                      <p class="text-2xl">Area (A) = w * L</p>
+                      <div class="flex">
+                        <input id="width-id" class="text-xl w-24 border-2 rounded-lg bg-amber-100" type="text" placeholder="w"><span>cm</span>
+                        <input id="length-id" class="text-xl w-24 border-2 rounded-lg bg-amber-100" type="text" placeholder=" L"><span>cm</span>
+                      </div>
+                      <p><span class="text-xl text-amber-500">A</span>rea: <span id="rectangle-calculation"></span><span>cm</span><sup>2</sup></p>
                       <div class="card-actions">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button onclick="areaCalculation2()" class="btn btn-primary w-64">calculation</button>
                       </div>
                     </div>
                   </div>
