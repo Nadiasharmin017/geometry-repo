@@ -27,12 +27,15 @@
                     </figure>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title">Triangle</h2>
-                      <p>Area (A) =0.5 * b * h</p>
+                      <p class="text-2xl">Area (A) =0.5 * b * h</p>
                       <div>
                         <input id="triangle-height" class="text-lg w-24 border-2 rounded-lg bg-amber-100" type="text" placeholder="h" >
                       <span>cm</span>
                       <input  id="triangle-base" class="text-lg w-24 border-2 rounded-lg bg-amber-100" type="text" placeholder="b" >
                       <span>cm</span>
+                      </div>
+                      <div id="">
+                        <p><span class="text-orange-400 text-2xl">A</span>rea: <span id="triangle-area"></span> <span>cm</span><sup>2</sup></p>
                       </div>
                       <div class="card-actions">
                         <button onclick="triangleCalculation()" class="btn btn-primary w-56">calculation</button>
