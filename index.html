@@ -28,12 +28,14 @@
                     <div class="card-body items-center text-center">
                       <h2 class="card-title">Triangle</h2>
                       <p>Area (A) =0.5 * b * h</p>
-                      <input class="text-lg w-24 border-2 rounded-lg bg-amber-100" type="text" placeholder="h" >
+                      <div>
+                        <input class="text-lg w-24 border-2 rounded-lg bg-amber-100" type="text" placeholder="h" >
                       <span>cm</span>
                       <input class="text-lg w-24 border-2 rounded-lg bg-amber-100" type="text" placeholder="b" >
                       <span>cm</span>
+                      </div>
                       <div class="card-actions">
-                        <button class="btn btn-primary w-56">calculation</button>
+                        <button onclick="triangleCalculation()" class="btn btn-primary w-56">calculation</button>
                       </div>
                     </div>
                   </div>
@@ -87,12 +89,12 @@
                   </div>
             </div>
             <!-- area calculation container -->
-            <div class="w-80 h-96 bg-red-300 border-2 border-orange-300 rounded-lg">
+            <div class="w-80 h-96 border-2 border-gray-400 rounded-lg">
                 <h3 class="text-3xl text-center">Area calculation</h3>
             </div>
             
         </div>
     </main>
-    
+    <script src="scripts/triangle-calculate.js"></script>
 </body>
 </html>
